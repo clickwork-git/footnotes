@@ -1,0 +1,22 @@
+Vernwendung
+===========
+
+Nummer der Fussnote
+-------------------
+
+Um die Nummer einer Fussnote einzufügen, wird "<sup class="footnoted"></sup>" zum Text hinzugefügt.
+
+Beispiel:
+
+Das ist ein Satz mit einer Fussnote.<sup class="footnoted"></sup>
+
+Fussnote
+--------
+
+Die Fussnote wird als Element einer geordneten Liste am Ende des Textes hinzugefügt. Der Container der Liste erhält die ID "footnotes".
+
+Beispiel:
+
+<ol id="footnotes">
+    <li>Das ist die Fussnote zum Satz.</li>
+</ol>
