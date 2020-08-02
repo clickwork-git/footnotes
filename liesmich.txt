@@ -1,22 +1,8 @@
-Vernwendung
-===========
+Einrichtung und Verwendung mit EasyMDE
+--------------------------------------
 
-Nummer der Fussnote
--------------------
-
-Um die Nummer einer Fussnote einzufügen, wird "<sup class="footnoted"></sup>" zum Text hinzugefügt.
-
-Beispiel:
-
-Das ist ein Satz mit einer Fussnote.<sup class="footnoted"></sup>
-
-Fussnote
---------
-
-Die Fussnote wird als Element einer geordneten Liste am Ende des Textes hinzugefügt. Der Container der Liste erhält die ID "footnotes".
-
-Beispiel:
-
-<ol id="footnotes">
-    <li>Das ist die Fussnote zum Satz.</li>
-</ol>
+* Das ZIP-Archiv auf den PC herunterladen.
+* Das ZIP-Archiv entpacken.
+* Das Verzeichnis `/footnotes` im entpackten ZIP-Archiv in das Vezeichnis /bl-plugins auf dem Server laden.
+* Load the file `plugin.php` in the directory `/easymde` in the extracted ZIP archive in the directory `/bl-plugins/tinymce` on your server.
+* There will be two new symbols in the toolbar of the editor. The first one is for adding the code for the footnote after the text, the second one for adding the code for the part with the references at the end of the text. Please add your references between the `<li>`and `</li>` in the list of the references.
