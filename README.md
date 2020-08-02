@@ -9,29 +9,21 @@ The plugin uses Footnoted from Jacob Heftmann:
 
 https://github.com/jheftmann/footnoted
 
-Usage
------
+Installation and use with EasyMDE
+---------------------------------
 
-To insert the number of the footnote add ```<sup class="footnoted"></sup>``` to the text.
-
-*Example*
-
-```
-This is a sentence with a footnote.<sup class="footnoted"></sup>
-```
-
-Add the footnote as element of an ordered list at the end of the text. Give the container of the list elements the ID "footnotes". 
-
-*Example*
-
-```
-<ol id="footnotes">
-    <li>This is the footnote to the sentence.</li>
-</ol>
-```
+* Download the ZIP archive to your PC.
+* Unzip the archive.
+* Load the directory `/footnotes` in the extracted ZIP archive in the directory /bl-plugins on your server.
+* Load the file `plugin.php` in the directory `/easymde` in the extracted ZIP archive in the directory `/bl-plugins/tinymce` on your server.
+* There will be two new symbols in the toolbar of the editor. The first one is for adding the code for the footnote after the text, the second one for adding the code for the part with the references at the end of the text. Please add your references between the `<li>`and `</li>` in the list of the references.
 
 Versions
 --------
 
-0.1, July 15th, 2017
+1.0, August 2, 2020
+- Addition of the file plugin.php for EasyMDE.
+- Removal of jQuery script.
+
+0.1, July 15, 2017
 - Release.
