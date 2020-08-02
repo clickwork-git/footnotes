@@ -5,4 +5,6 @@ Einrichtung und Verwendung mit EasyMDE
 * Das ZIP-Archiv entpacken.
 * Das Verzeichnis /footnotes im entpackten ZIP-Archiv in das Vezeichnis /bl-plugins auf dem Server laden.
 * Die Datei plugin.php im Verzeichnis /easymde im entpackten ZIP-Archiv in das Verzeichnis /bl-plugins/tinymce auf dem Server laden.
-* There will be two new symbols in the toolbar of the editor. The first one is for adding the code for the footnote after the text, the second one for adding the code for the part with the references at the end of the text. Please add your references between the `<li>`and `</li>` in the list of the references.
+* Die Werkzeigleiste des Editors enthält nun zwei neue Icons.
+
+* There will be two new symbols in the toolbar of the editor. The first one is for adding the code for the footnote after the text, the second one for adding the code for the part with the references below the text. Please add the references between the `<li>` and `</li>` in the list of the references.
