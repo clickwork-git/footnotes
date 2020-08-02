@@ -3,7 +3,7 @@ Footnotes
 
 The plugin allows to add footnotes in an easy way to a text. There is no need for numbering the footnotes.
 
-The footnotes have a link to go back to the previous reading position.
+The references have a link to go back to the previous reading position.
 
 The plugin uses Footnoted from Jacob Heftmann:
 
