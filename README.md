@@ -16,7 +16,7 @@ Installation and use with EasyMDE
 * Unzip the archive.
 * Load the directory `/footnotes` in the extracted ZIP archive in the directory `/bl-plugins` on your server.
 * Load the file `plugin.php` in the directory `/easymde` in the extracted ZIP archive in the directory `/bl-plugins/tinymce` on your server.
-* There will be two new symbols in the toolbar of the editor. The first one is for adding the code for the footnote after the text, the second one for adding the code for the part with the references at the end of the text. Please add your references between the `<li>` and `</li>` in the list of the references.
+* There will be two new symbols in the toolbar of the editor. The first one is for adding the code for the footnote after the text, the second one for adding the code for the part with the references below the text. Please add your references between the `<li>` and `</li>` in the list of the references.
 
 Versions
 --------
